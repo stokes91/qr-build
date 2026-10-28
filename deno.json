@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "test": "deno test tests/",
+    "build": "deno run --allow-read --allow-write --allow-run build.ts"
+  },
+  "compilerOptions": {"lib": ["deno.window", "dom", "dom.iterable"]}
+}
